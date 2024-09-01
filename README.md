@@ -23,3 +23,10 @@ b. **Max** : This is the maximum value for the sort values dropdown. The highest
 c. **Indicate Used Values** : This is an important option is the sense that if this is enabled it makes an api call internally to check which sort orders have already been assigned to entities and gives an indication with a blue dot for used sort orders. This is shown in subsequent screenshots below.
 
 
+### `2. Used values indication ON`
+
+This is how the dropdown will look like if some sort orders have been used already.
+
+### `3. Used values indication OFF`
+
+Shown when used values indication is turned off from settings. This is useful to avoid database queries being to show which values are used.
