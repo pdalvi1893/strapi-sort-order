@@ -16,6 +16,8 @@ Enable the field by navigating to Custom options. This is the place where all th
 
 ![Logo](public/uploads/AdminApplication.png)
 
-#### `a. Min : ` This is the start range for the custom field. The sort orders dropdown values will start from this range.
+#### `a. **Min** : ` This is the start range for the custom field. The sort orders dropdown values will start from this range.
+#### `b. **Max** : ` This is the start range for the custom field. The sort orders dropdown values will start from this range.
+#### `c. **Indicate Used Values** : ` This is the start range for the custom field. The sort orders dropdown values will start from this range.
 
 
