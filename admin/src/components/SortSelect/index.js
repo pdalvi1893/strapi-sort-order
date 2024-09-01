@@ -47,8 +47,6 @@ const NumberSelect = React.forwardRef(
     if (max < min) max = min + 1;
 
     useEffect(() => {
-      console.log("Field attribute name:", min);
-      // Fetch data from the API
       const fetchNumbersOptions = async () => {
         try {
           let data = [];
@@ -75,7 +73,6 @@ const NumberSelect = React.forwardRef(
             };
           });
 
-          console.log("ARRAY :", data);
           setNumbersOptions(data);
         } catch (err) {
           console.error("Failed to fetch numbers options", err);
