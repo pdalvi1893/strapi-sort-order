@@ -12,9 +12,10 @@ npm i strapi-plugin-sort-order
 
 ### `1. Enabling the field`
 
-Once the project is successfully up and running log in to the application using the username and password provided over the email. Once in the application navigate to Cricket Tournament left side menu link and start your cricket match. 
+Enable the field by navigating to Custom options. This is the place where all the custom fields are made available. The plugin options for the field are explained below.
 
 ![Logo](public/uploads/AdminApplication.png)
 
-Creating a target for Challenge #3.
+#### `a. Min : ` This is the start range for the custom field. The sort orders dropdown values will start from this range.
+
 
