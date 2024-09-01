@@ -11,6 +11,8 @@ module.exports = ({ strapi }) => ({
       select: [field],
     });
 
+    result = result.filter((item) => item[field]);
+
     return result.map((item) => item[field]);
   },
 });
