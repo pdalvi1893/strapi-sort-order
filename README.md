@@ -14,7 +14,7 @@ npm i strapi-plugin-sort-order
 
 Enable the field by navigating to Custom options. This is the place where all the custom fields are made available. The plugin options for the field are explained below.
 
-![Logo](public/uploads/AdminApplication.png)
+![Logo](screenshots/admin_panel.png)
 
 a. **Min** : This is the start range for the custom field. The sort orders dropdown values will start from this range.
 
@@ -27,6 +27,10 @@ c. **Indicate Used Values** : This is an important option is the sense that if t
 
 This is how the dropdown will look like if some sort orders have been used already.
 
+![Logo](screenshots/admin_used_values_indication.png)
+
 ### `3. Used values indication OFF`
 
 Shown when used values indication is turned off from settings. This is useful to avoid database queries being to show which values are used.
+
+![Logo](screenshots/admin_used_values_indication_off.png)
